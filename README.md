@@ -1,3 +1,12 @@
+# Quick Look
+
+| Sets              | File Name                                  | File Count              |
+| ----------------- | ------------------------------------------ | ----------------------- |
+| SuperOTC (.ttc)   | SourceHanSans.ttc                          | 1                       |
+| OTC (.ttc)        | SourceHanSans-`weight`.ttc                 | 7(weight)               |
+| OTF (.otf)        | SourceHanSans`SC,_,K,HC,TC`-`weight`.otf   | 7(weight)×5(lang)×2(HW) |
+| Subset OTF (.otf) | SourceHanSans`CN,JP,KR,HK,TW`-`weight`.otf | 7(weight)×5(lang)×2(HW) |
+
 # Downloading Source Han Sans
 
 Source Han Sans is an open source Pan-CJK typeface whose OpenType/CFF fonts and CID-based sources are covered under the terms of the [SIL Open Font License, Version 1.1](http://scripts.sil.org/OFL) (also see the [LICENSE](LICENSE.txt) and [FAQ](http://scripts.sil.org/cms/scripts/page.php?item_id=OFL-FAQ_web)). Here you will find the ready-to-install OpenType/CFF font resources, as individual font resources or grouped together in downloadable ZIP files. The fonts' CID-based sources and build instructions are available in the [repository's `master` branch](https://github.com/adobe-fonts/source-han-sans/). Those who are unfamiliar with GitHub are encouraged to reference the [official Source Han download guide](https://github.com/adobe-fonts/source-han-serif/raw/release/download-guide-source-han.pdf), which is provided in English, Japanese, Korean, Simplified Chinese, and Traditional Chinese.
