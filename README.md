@@ -1,11 +1,13 @@
 # Quick Look
 
-| Sets              | File Name                                  | File Count              |
-| ----------------- | ------------------------------------------ | ----------------------- |
-| SuperOTC (.ttc)   | SourceHanSans.ttc                          | 1                       |
-| OTC (.ttc)        | SourceHanSans-`weight`.ttc                 | 7(weight)               |
-| OTF (.otf)        | SourceHanSans`SC,_,K,HC,TC`-`weight`.otf   | 7(weight)×5(lang)×2(HW) |
-| Subset OTF (.otf) | SourceHanSans`CN,JP,KR,HK,TW`-`weight`.otf | 7(weight)×5(lang)×2(HW) |
+| Sets              | File Name                                  | File Count                |
+| ----------------- | ------------------------------------------ | ------------------------- |
+| SuperOTC (.ttc)   | SourceHanSans.ttc                          | 1                         |
+| OTC (.ttc)        | SourceHanSans-`weight`.ttc                 | 7(weight)                 |
+| OTF (.otf)        | SourceHanSans`SC,_,K,HC,TC`-`weight`.otf   | 7(weight)×5(lang)×2(HW)   |
+| Subset OTF (.otf) | SourceHanSans`CN,JP,KR,HK,TW`-`weight`.otf | 7(weight)×5(region)×2(HW) |
+
+\* All OTCs contain **language-specific** OTF.
 
 # Downloading Source Han Sans
 
