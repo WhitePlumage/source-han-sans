@@ -1,13 +1,40 @@
 # Quick Look
 
-| Sets              | File Name                                  | File Count                |
-| ----------------- | ------------------------------------------ | ------------------------- |
-| SuperOTC (.ttc)   | SourceHanSans.ttc                          | 1                         |
-| OTC (.ttc)        | SourceHanSans-`weight`.ttc                 | 7(weight)                 |
-| OTF (.otf)        | SourceHanSans`SC,_,K,HC,TC`-`weight`.otf   | 7(weight)×5(lang)×2(HW)   |
-| Subset OTF (.otf) | SourceHanSans`CN,JP,KR,HK,TW`-`weight`.otf | 7(weight)×5(region)×2(HW) |
+| Sets              | File Name                                  | File Count                       |
+| ----------------- | ------------------------------------------ | -------------------------------- |
+| SuperOTC (.ttc)   | SourceHanSans.ttc                          | 1                                |
+| OTC (.ttc)        | SourceHanSans-`weight`.ttc                 | 7 (weight)                       |
+| OTF (.otf)        | SourceHanSans`SC,_,K,HC,TC`-`weight`.otf   | 7 (weight) × 5 (lang) × 2 (HW)   |
+| Subset OTF (.otf) | SourceHanSans`CN,JP,KR,HK,TW`-`weight`.otf | 7 (weight) × 5 (region) × 2 (HW) |
 
-\* All OTCs contain **language-specific** OTF.
+1. All OTCs contain *language-specific* OTF.
+2. `HW` refers to “Half-Width”.
+3. All the font above is OpenType (CFF) based.
+
+## Variable font since v2.003
+
+| VF Sets              | File Name                                  | File Count                |
+| -------------------- | ------------------------------------------ | ------------------------- |
+| OTC                  | SourceHanSans-VF.`outline`.ttc             | 2 (outline type) × 2 (HW) |
+|                      |                                            |                           |
+| OTF                  | SourceHanSans`SC,_,K,HC,TC`-VF.otf         | 5 (lang)                  |
+| OTF / Subset         | SourceHanSans`CN,JP,KR,HK,TW`-VF.otf       | 5 (region)                |
+| OTF / HW             | SourceHanSansHW`SC,_,K,HC,TC`-VF.otf       | 5 (lang)                  |
+|                      |                                            |                           |
+| TTF                  | SourceHanSans`SC,_,K,HC,TC`-VF.ttf         | 5 (lang)                  |
+| TTF / Subset         | SourceHanSans`CN,JP,KR,HK,TW`-VF.ttf       | 5 (region)                |
+| TTF / HW             | SourceHanSansHW`SC,_,K,HC,TC`-VF.ttf       | 5 (lang)                  |
+|                      |                                            |                           |
+| WOFF2 /  OTF         | SourceHanSans`SC,_,K,HC,TC`-VF.otf.woff2   | 5 (lang)                  |
+| WOFF2 / OTF / Subset | SourceHanSans`CN,JP,KR,HK,TW`-VF.otf.woff2 | 5 (region)                |
+| WOFF2 / OTF / HW     | SourceHanSansHW`SC,_,K,HC,TC`-VF.otf.woff2 | 5 (lang)                  |
+|                      |                                            |                           |
+| WOFF2 /  TTF         | SourceHanSans`SC,_,K,HC,TC`-VF.ttf.woff2   | 5 (lang)                  |
+| WOFF2 / TTF / Subset | SourceHanSans`CN,JP,KR,HK,TW`-VF.ttf.woff2 | 5 (region)                |
+| WOFF2 / TTF / HW     | SourceHanSansHW`SC,_,K,HC,TC`-VF.ttf.woff2 | 5 (lang)                  |
+
+1. There is no half-width subset font.
+2. The OTC-VF is based on CFF2 table. It will not work if the software is not well-supported, and in that case use these font may cause problems. Therefore, you may choose the TTF-VF for better compatibility. 
 
 # Downloading Source Han Sans
 
