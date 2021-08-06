@@ -34,7 +34,7 @@
 | WOFF2 / TTF / HW     | SourceHanSansHW`SC,_,K,HC,TC`-VF.ttf.woff2 | 5 (lang)                  |
 
 1. There is no half-width subset font.
-2. The OTF-VF is based on CFF2 table. It will not work if the software is not well-supported, and in that case use these font may cause problems. Therefore, you may choose the TTF-VF for better compatibility (esspecially for Microsoft Office). 
+2. The OTF-VF is based on CFF2 table. It will not work if the software is not well-supported, and in that case use these font may cause problems. Therefore, you may choose the TTF-VF for better compatibility (especially for Microsoft Office). 
 
 # Downloading Source Han Sans
 
