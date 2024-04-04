@@ -16,19 +16,19 @@
 | VF Sets              | File Name                                  | File Count                |
 | -------------------- | ------------------------------------------ | ------------------------- |
 | OTC                  | SourceHanSans-VF.`outline`.ttc             | 2 (outline type) × 2 (HW) |
-|                      |                                            |                           |
+| -------------------- | ------------------------------------------ | ------------------------- |
 | OTF                  | SourceHanSans`SC,_,K,HC,TC`-VF.otf         | 5 (lang)                  |
 | OTF / Subset         | SourceHanSans`CN,JP,KR,HK,TW`-VF.otf       | 5 (region)                |
 | OTF / HW             | SourceHanSansHW`SC,_,K,HC,TC`-VF.otf       | 5 (lang)                  |
-|                      |                                            |                           |
+| -------------------- | ------------------------------------------ | ------------------------- |
 | TTF                  | SourceHanSans`SC,_,K,HC,TC`-VF.ttf         | 5 (lang)                  |
 | TTF / Subset         | SourceHanSans`CN,JP,KR,HK,TW`-VF.ttf       | 5 (region)                |
 | TTF / HW             | SourceHanSansHW`SC,_,K,HC,TC`-VF.ttf       | 5 (lang)                  |
-|                      |                                            |                           |
+| -------------------- | ------------------------------------------ | ------------------------- |
 | WOFF2 /  OTF         | SourceHanSans`SC,_,K,HC,TC`-VF.otf.woff2   | 5 (lang)                  |
 | WOFF2 / OTF / Subset | SourceHanSans`CN,JP,KR,HK,TW`-VF.otf.woff2 | 5 (region)                |
 | WOFF2 / OTF / HW     | SourceHanSansHW`SC,_,K,HC,TC`-VF.otf.woff2 | 5 (lang)                  |
-|                      |                                            |                           |
+| -------------------- | ------------------------------------------ | ------------------------- |
 | WOFF2 /  TTF         | SourceHanSans`SC,_,K,HC,TC`-VF.ttf.woff2   | 5 (lang)                  |
 | WOFF2 / TTF / Subset | SourceHanSans`CN,JP,KR,HK,TW`-VF.ttf.woff2 | 5 (region)                |
 | WOFF2 / TTF / HW     | SourceHanSansHW`SC,_,K,HC,TC`-VF.ttf.woff2 | 5 (lang)                  |
